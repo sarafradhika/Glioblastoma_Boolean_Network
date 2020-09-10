@@ -1,0 +1,10 @@
+,proApoptosis,antiApoptosis,proArrest,antiArrest,proAngiogenesis,antiAngiogenesis,ConvexSum,ApopRatio,ArrestRatio,AngioRatio,mutations
+NONE,0.75,0.5,1.0,0.25,0.5714285714285714,1.0,2.25,1.5,4.0,1.75,{'DRD2': False}
+42-MG-BA,0.75,0.5,1.0,0.25,0.5714285714285714,0.5,2.25,1.5,4.0,0.875,"{'p16INK4a': False, 'p14ARF': False, 'PDGFR': True, 'PTEN': False, 'p53': False}"
+A172,0.75,0.5,1.0,0.25,0.5714285714285714,0.5,2.25,1.5,4.0,0.875,"{'p16INK4a': False, 'p14ARF': False, 'EGFR': True, 'p53': False}"
+AM-38,0.75,0.5,1.0,0.25,0.5714285714285714,1.0,2.25,1.5,4.0,1.75,"{'p16INK4a': False, 'p14ARF': False, 'Raf': True}"
+CCF-STTG1,0.75,0.5,1.0,0.25,0.5714285714285714,1.0,2.25,1.5,4.0,1.75,"{'EGFR': True, 'MDM2': True, 'PTEN': False}"
+LN-229,0.75,0.5,1.0,0.25,0.5714285714285714,1.0,2.25,1.5,4.0,1.75,"{'FasL': False, 'p16INK4a': False, 'p14ARF': False, 'EGFR': True, 'Sos': True}"
+T98G,0.75,0.5,1.0,0.25,0.5714285714285714,0.5,2.25,1.5,4.0,0.875,"{'FasL': False, 'p16INK4a': False, 'p14ARF': False, 'p53': False}"
+U-87-MG,0.75,0.5,1.0,0.25,0.5714285714285714,1.0,2.25,1.5,4.0,1.75,"{'FasL': False, 'p16INK4a': False, 'p14ARF': False, 'PTEN': False, 'NF1': False}"
+YKG-1,0.75,0.5,1.0,0.25,0.5714285714285714,0.5,2.25,1.5,4.0,0.875,"{'p16INK4a': False, 'p14ARF': False, 'p53': False, 'PTEN': False, 'PI3K': True, 'NF1': False}"
