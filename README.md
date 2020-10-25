@@ -1,1 +1,1 @@
-# GBM
+# Glioblastoma_Boolean_Network
