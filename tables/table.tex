@@ -1,0 +1,133 @@
+\documentclass{article}
+
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+
+\begin{document}
+\definecolor{green}{rgb}{0,0.5,0}
+
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+
+
+
+\newgeometry{margin=1cm} % modify this if you need even more space
+\begin{landscape}
+
+\hspace*{-3cm}%
+\begin{table}
+%\hspace*{-3cm}%
+\resizebox{1.35\textwidth}{!}{
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c |}
+\hline
+ & NONE & 42-MG-BA & A172 & AM-38 & CCF-STTG1 & LN-229 & T98G & U-87-MG & YKG-1 \\
+\hline
+High & \red{fos} & \green{p53} & \green{p53} & \red{fos} & \red{MDM2} & \red{fos} & \green{p53} & \red{MDM2} & \green{p53} \\
+  & \red{CDK4} &  &  & \red{jun} & \green{p53} & \red{jun} &  & \green{PTEN} &  \\
+  & \red{jun} &  &  & \green{p16INK4a} &  & \green{p16INK4a} &  & \green{p53} &  \\
+  & \green{p16INK4a} &  &  & \red{CDK4} &  & \red{CDK4} &  & \red{AKT} &  \\
+  &  &  &  &  &  &  &  & \red{PDK1} &  \\
+  &  &  &  &  &  &  &  & \red{PIP3} &  \\
+  &  &  &  &  &  &  &  & \red{PI3K} &  \\
+  &  &  &  &  &  &  &  & \green{p14ARF} &  \\
+\hline
+Medium & \red{BCLxl} & \red{NFKB} & \red{BCLxl} & \red{BCLxl} & \red{BCLxl} & \red{BCLxl} & \red{BCLxl} & \red{NFKB} & \red{NFKB} \\
+  & \red{NFKB} & \red{BCLxl} & \red{NFKB} & \red{NFKB} & \red{NFKB} & \red{NFKB} & \red{NFKB} & \red{BCLxl} & \red{BCLxl} \\
+\hline
+Low & \red{STAT3} & \green{p15} & \green{FOXO} & \red{Mcl1} & \green{p15} & \red{Mcl1} & \green{FOXO} & \red{NFKB} & \green{p15} \\
+  & \red{JAK} & \red{fos} & \red{CCND1} & \red{JAK} & \red{jun} & \red{JAK} & \red{CCND1} & \red{BCLxl} & \red{fos} \\
+  & \red{XIAP} & \green{PCNA} & \green{PCNA} & \red{TRAF2} & \red{fos} & \red{TRAF2} & \green{PCNA} &  & \green{PCNA} \\
+  & \red{Mcl1} & \green{p16INK4a} & \red{CDK4} & \red{STAT3} & \green{p16INK4a} & \red{STAT3} & \red{CDK4} &  & \green{p16INK4a} \\
+  &  & \red{CDK4} & \green{p21} &  & \green{PCNA} &  & \green{p21} &  & \red{CDK4} \\
+  &  & \red{CCND1} & \red{PIAS} &  & \red{CCND1} &  & \red{PIAS} &  & \red{CCND1} \\
+  &  & \red{jun} & \green{p15} &  &  &  & \green{p15} &  & \red{jun} \\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+\restoregeometry
+
+\newgeometry{margin=1cm} % modify this if you need even more space
+\begin{landscape}
+
+\begin{table}
+%\hspace*{-3cm}%
+\resizebox{1.35\textwidth}{!}{
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c |}
+\hline
+ & NONE & 42-MG-BA & A172 & AM-38 & CCF-STTG1 & LN-229 & T98G & U-87-MG & YKG-1 \\
+\hline
+High & \green{p16INK4a}, \green{Bax} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{Bax} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{Bax} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{p14ARF} & \green{p16INK4a}, \green{p53} \\
+  & \green{p16INK4a}, \green{Bak} &  &  & \green{p16INK4a}, \green{Bak} &  & \green{p16INK4a}, \green{Bak} &  & \green{p16INK4a}, \green{p53} &  \\
+  &  &  &  &  &  &  &  & \green{PTEN}, \green{p16INK4a} &  \\
+\hline
+Medium &  & \green{p16INK4a}, \green{p21} &  &  & \green{p16INK4a}, \green{p21} &  &  &  & \green{p16INK4a}, \green{p21} \\
+  &  & \green{p16INK4a}, \green{PCNA} &  &  & \green{p16INK4a}, \green{PCNA} &  &  &  & \green{p16INK4a}, \green{PCNA} \\
+  &  & \green{p15}, \green{p16INK4a} &  &  & \green{p15}, \green{p16INK4a} &  &  &  & \green{p15}, \green{p16INK4a} \\
+\hline
+Low & \green{p16INK4a}, \green{Bad} & \green{p53}, \green{Bax} & \green{GSK3b}, \green{p16INK4a} & \green{JAK}, \green{p16INK4a} & \green{p53}, \green{Bax} & \green{JAK}, \green{p16INK4a} & \green{GSK3b}, \green{p16INK4a} & \green{p16INK4a}, \green{p21} & \green{p53}, \green{Bax} \\
+  & \green{p16INK4a}, \green{Bim} & \green{p53}, \green{Bak} & \green{p16INK4a}, \green{p21} & \green{cMyc}, \green{p16INK4a} & \green{p53}, \green{Bak} & \green{cMyc}, \green{p16INK4a} & \green{p16INK4a}, \green{p21} & \green{p16INK4a}, \green{PCNA} & \green{p53}, \green{Bak} \\
+  & \green{FLT3}, \green{p16INK4a} &  & \green{FOXO}, \green{p16INK4a} & \green{PKG}, \green{p16INK4a} &  & \green{PKG}, \green{p16INK4a} & \green{FOXO}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} &  \\
+  & \green{TRAF2}, \green{p16INK4a} &  & \green{p16INK4a}, \green{PCNA} & \green{Notch}, \green{p16INK4a} &  & \green{Notch}, \green{p16INK4a} & \green{p16INK4a}, \green{PCNA} &  &  \\
+  & \green{p16INK4a}, \green{XIAP} &  & \green{p15}, \green{p16INK4a} & \green{SRC}, \green{p16INK4a} &  & \green{SRC}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} &  &  \\
+  & \green{NFKB}, \green{p16INK4a} &  &  & \green{EDNRA}, \green{p16INK4a} &  & \green{EDNRA}, \green{p16INK4a} &  &  &  \\
+  & \green{PLCb}, \green{p16INK4a} &  &  & \green{p16INK4a}, \green{Rac} &  & \green{p16INK4a}, \green{Rac} &  &  &  \\
+  & \green{p16INK4a}, \green{NF1} &  &  & \green{Gi}, \green{p16INK4a} &  & \green{Gi}, \green{p16INK4a} &  &  &  \\
+  & \green{p16INK4a}, \green{BCLxl} &  &  & \green{STAT3}, \green{p16INK4a} &  & \green{STAT3}, \green{p16INK4a} &  &  &  \\
+  & \green{Grb2}, \green{p16INK4a} &  &  & \green{p16INK4a}, \green{cPLA2} &  & \green{p16INK4a}, \green{cPLA2} &  &  &  \\
+  & \green{FGF2}, \green{p16INK4a} &  &  & \green{PLCb}, \green{p16INK4a} &  & \green{PLCb}, \green{p16INK4a} &  &  &  \\
+  & \green{PPARa}, \green{p16INK4a} &  &  &  &  &  &  &  &  \\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+\restoregeometry
+
+
+\newgeometry{margin=1cm} % modify this if you need even more space
+\begin{landscape}
+
+\begin{table}
+%\hspace*{-3cm}%
+\resizebox{1.35\textwidth}{!}{
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c |}
+\hline
+ & NONE & 42-MG-BA & A172 & AM-38 & CCF-STTG1 & LN-229 & T98G & U-87-MG & YKG-1 \\
+\hline
+High & \green{p16INK4a}, \green{Bax} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{Bax} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{Bax} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{p53} & \green{p16INK4a}, \green{p53} \\
+  & \green{p16INK4a}, \green{Bak} &  &  & \green{p16INK4a}, \green{Bak} &  & \green{p16INK4a}, \green{Bak} &  & \green{PTEN}, \green{p16INK4a} &  \\
+  &  &  &  &  &  &  &  & \green{p16INK4a}, \green{p14ARF} &  \\
+\hline
+Medium & \green{TRAF2}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} & \green{STAT3}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} & \green{STAT3}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} & \green{p15}, \green{p16INK4a} \\
+  & \green{p16INK4a}, \green{XIAP} & \green{p16INK4a}, \green{PCNA} & \green{p16INK4a}, \green{PCNA} & \green{JAK}, \green{p16INK4a} & \green{p16INK4a}, \green{PCNA} & \green{JAK}, \green{p16INK4a} & \green{p16INK4a}, \green{PCNA} & \green{p16INK4a}, \green{PCNA} & \green{p16INK4a}, \green{PCNA} \\
+  & \green{FGF2}, \green{p16INK4a} & \green{p16INK4a}, \green{p21} & \green{p16INK4a}, \green{p21} & \green{p16INK4a}, \green{Rac} & \green{p16INK4a}, \green{p21} & \green{p16INK4a}, \green{Rac} & \green{p16INK4a}, \green{p21} & \green{p16INK4a}, \green{p21} & \green{p16INK4a}, \green{p21} \\
+  & \green{p16INK4a}, \green{BCLxl} &  & \green{GSK3b}, \green{p16INK4a} & \green{SRC}, \green{p16INK4a} &  & \green{SRC}, \green{p16INK4a} & \green{GSK3b}, \green{p16INK4a} &  &  \\
+  & \green{p16INK4a}, \green{Bim} &  & \green{FOXO}, \green{p16INK4a} & \green{PLCb}, \green{p16INK4a} &  & \green{PLCb}, \green{p16INK4a} & \green{FOXO}, \green{p16INK4a} &  &  \\
+  & \green{FLT3}, \green{p16INK4a} &  &  & \green{p16INK4a}, \green{cPLA2} &  & \green{p16INK4a}, \green{cPLA2} &  &  &  \\
+  & \green{PLCb}, \green{p16INK4a} &  &  & \green{EDNRA}, \green{p16INK4a} &  & \green{EDNRA}, \green{p16INK4a} &  &  &  \\
+  & \green{p16INK4a}, \green{NF1} &  &  & \green{Gi}, \green{p16INK4a} &  & \green{Gi}, \green{p16INK4a} &  &  &  \\
+  & \green{NFKB}, \green{p16INK4a} &  &  & \green{Notch}, \green{p16INK4a} &  & \green{Notch}, \green{p16INK4a} &  &  &  \\
+  & \green{Grb2}, \green{p16INK4a} &  &  & \green{PKG}, \green{p16INK4a} &  & \green{PKG}, \green{p16INK4a} &  &  &  \\
+  & \green{PPARa}, \green{p16INK4a} &  &  & \green{cMyc}, \green{p16INK4a} &  & \green{cMyc}, \green{p16INK4a} &  &  &  \\
+  & \green{p16INK4a}, \green{Bad} &  &  &  &  &  &  &  &  \\
+\hline
+Low &  & \green{p53}, \green{Bax} &  &  & \green{p53}, \green{Bax} &  &  &  & \green{p53}, \green{Bax} \\
+  &  & \green{p53}, \green{Bak} &  &  & \green{p53}, \green{Bak} &  &  &  & \green{p53}, \green{Bak} \\
+\hline
+
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+\restoregeometry
+
+
+\end{document}
